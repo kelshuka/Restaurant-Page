@@ -1,23 +1,10 @@
 //console.log("testing it");
 
-import { page1, page2 } from "./weBPage";
-
-//const content = document.getElementById('#content');
-
-//content.appendChild(page1());
-//content.appendChild(page2());
-
-//import './style.css';
+import './style.css';
+import { page1 } from "./weBPage";
 
 
-//function component() {
-    //const element = document.createElement('div');
-  
-//}
-  
-//document.body.appendChild(component());
+page1();
 
-//component();
-
-document.body.appendChild(page1());
-document.body.appendChild(page2());
+const header = document.querySelector('header');
+header.classList.add('buttns');

@@ -1,0 +1,79 @@
+
+body {
+    position: relative;
+    background-color: color-mix(in srgb, rgb(113, 219, 113),pink 70%);
+    /*background-color: color-mix(in srgb, rgb(113, 219, 113) 75%, transparent);*/
+}
+
+.backg {
+    background-image: url('webPa.jpg');
+    background-size: 100% 100%;
+    font-size: bold;
+    flex-shrink: 0;
+    color: white;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    
+}
+
+.terplo {
+    
+    width: 80%;
+    padding-top: 20%;
+    padding-bottom: 15%;
+    margin-top: 5%;
+    margin-left: 8%;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: italic;
+    color: green;
+}
+
+.terplo1 {
+    
+    width: 80%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+    margin-left: 8%;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 2vh;
+}
+
+
+
+.plac {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+button {
+    margin-left: 1em;
+    border-radius: 1rem;
+    background-color: color-mix(in srgb, #0098ef, gold 40%);
+    color: white;
+    padding: 1.5em 5em;
+}
+
+.buttns {
+    margin-top: 9px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    gap: 60px;
+}
+
+header {
+    position: relative;
+    
+}
+
+nav {
+    position: fixed;
+    width: 80%;
+}
