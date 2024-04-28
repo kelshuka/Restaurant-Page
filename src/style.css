@@ -42,6 +42,24 @@ body {
     border-radius: 2vh;
 }
 
+.terplo2 {
+    
+    width: 50%;
+    height: 30vh;
+    padding-top: 1%;
+    padding-bottom: 10%;
+    padding-left: 4%;
+    margin-top: 8%;
+    margin-left: 18%;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: italic;
+    color: green;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 2vh;
+}
+
 
 
 .plac {
@@ -55,7 +73,7 @@ button {
     border-radius: 1rem;
     background-color: color-mix(in srgb, #0098ef, gold 40%);
     color: white;
-    padding: 1.5em 5em;
+    padding: 1.5em 4em;
 }
 
 .buttns {
@@ -76,4 +94,48 @@ header {
 nav {
     position: fixed;
     width: 80%;
+}
+
+
+
+.mainSvg {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+
+.projects {
+    display: grid;
+    /*grid-template-columns: repeat(2, minmax(20px, 0.5fr)); */
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4% 17%;
+    column-gap: 4%;
+    height: 80vh;
+    width: 60%;
+    background-color: color-mix(in srgb, rgb(87, 156, 87), rgb(65, 63, 57) 80%);
+    border-radius: 2vh;
+    padding: 1em;
+}
+
+.Cards {
+    text-align: left;
+    padding: 0 10px;
+    border: 5px solid white; 
+    background-color: white;
+    box-shadow: 
+        /*inset 0 -3em 3em rgb(0 200 0 / 30%),*/
+        0 0 0 2px white,
+        0.3em 0.3em 1em rgb(218, 225, 231);
+    border-radius: 1vh;
+    border-left-color: orange;
+    font-size: 18px;
+    width: 60%;
+    height: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
 }
